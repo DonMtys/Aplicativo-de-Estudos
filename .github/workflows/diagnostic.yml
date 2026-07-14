@@ -1,0 +1,12 @@
+name: Diagnostic
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Testar executor
+        run: echo "GitHub Actions funcionando"
